@@ -1,0 +1,118 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Kaisei Tokumin", serif;
+}
+h1 {
+  display: inline-block;
+  color: blue;
+  font-family: "Kaisei Tokumin", serif;
+}
+h2 {
+  font-size: 50px;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+h5 {
+  color: blue;
+}
+h6 {
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+.weather-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+.weather-forecast {
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+.weather-forecast-date {
+  font-weight: bold;
+}
+.weather-forecast-temperature-max {
+  font-weight: bold;
+  color: blue;
+}
+.weather-forecast-temperature-min {
+  color: black;
+  opacity: 0.5;
+}
+.now {
+  font-size: 50px;
+}
+.weekday,
+.time {
+  font-size: 18px;
+  font-weight: bold;
+}
+.unit {
+  font-size: 18px;
+}
+.sky,
+.humid,
+.wind {
+  font-size: 18px;
+  text-align: center;
+}
+.current-location {
+  border: 3px solid;
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: white;
+  color: blue;
+  transition: all 200ms ease-in-out;
+}
+.search {
+  border: 3px solid;
+  border-color: white;
+  background-color: transparent;
+  padding: 3px 3px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: blue;
+  transition: all 200ms ease-in-out;
+}
+.current-location:hover {
+  border: 3px solid;
+  border-color: white;
+  background-color: transparent;
+  padding: 3px 3px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
+.search:hover {
+  cursor: pointer;
+  border: 3px solid;
+  border-color: white;
+  background-color: transparent;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: black;
+  transition: all 200ms ease-in-out;
+}
